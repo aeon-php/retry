@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a5abfb9ba1938a8da9689508fb1a7bc",
+    "content-hash": "24ee96911afe0b2f02db6cdd38efe89c",
     "packages": [
         {
             "name": "aeon-php/calendar",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aeon-php/calendar.git",
-                "reference": "4383572133352c54688bdd7144c6541a7598295a"
+                "reference": "fcf6af31d67439ea23bb56c64a29769028fdf133"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aeon-php/calendar/zipball/4383572133352c54688bdd7144c6541a7598295a",
-                "reference": "4383572133352c54688bdd7144c6541a7598295a",
+                "url": "https://api.github.com/repos/aeon-php/calendar/zipball/fcf6af31d67439ea23bb56c64a29769028fdf133",
+                "reference": "fcf6af31d67439ea23bb56c64a29769028fdf133",
                 "shasum": ""
             },
             "require": {
@@ -25,13 +25,7 @@
             },
             "require-dev": {
                 "ext-bcmath": "*",
-                "friendsofphp/php-cs-fixer": "^2.16.3",
-                "infection/infection": "^0.16.3",
-                "phpstan/phpstan": "^0.12.26",
-                "phpstan/phpstan-phpunit": "^0.12.8",
-                "phpunit/phpunit": "^9.1",
-                "psalm/plugin-phpunit": "^0.10.1",
-                "vimeo/psalm": "^3.11"
+                "phpunit/phpunit": "^9.1"
             },
             "suggest": {
                 "ext-bcmath": "Compare time units with high precision"
@@ -51,9 +45,10 @@
             "description": "PHP type safe, immutable calendar library",
             "keywords": [
                 "calendar",
-                "holidays",
+                "date",
+                "datetime",
                 "immutable",
-                "sleep"
+                "time"
             ],
             "funding": [
                 {
@@ -61,34 +56,28 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-07-16T19:49:33+00:00"
+            "time": "2020-08-01T19:24:48+00:00"
         },
         {
             "name": "aeon-php/sleep",
-            "version": "0.2.0",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aeon-php/sleep.git",
-                "reference": "7d9eac6afe878a0d81761bb4d69d173735130c19"
+                "reference": "03e9528bf549be9a4e08eeb9c81dbfe1892cc512"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aeon-php/sleep/zipball/7d9eac6afe878a0d81761bb4d69d173735130c19",
-                "reference": "7d9eac6afe878a0d81761bb4d69d173735130c19",
+                "url": "https://api.github.com/repos/aeon-php/sleep/zipball/03e9528bf549be9a4e08eeb9c81dbfe1892cc512",
+                "reference": "03e9528bf549be9a4e08eeb9c81dbfe1892cc512",
                 "shasum": ""
             },
             "require": {
-                "aeon-php/calendar": "^0.2.0",
+                "aeon-php/calendar": "^0.3.0",
                 "php": ">=7.4.2"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.16",
-                "infection/infection": "^0.16.3",
-                "phpstan/phpstan": "^0.12.25",
-                "phpstan/phpstan-phpunit": "^0.12.8",
-                "phpunit/phpunit": "^9.1",
-                "psalm/plugin-phpunit": "^0.10.1",
-                "vimeo/psalm": "^3.11"
+                "phpunit/phpunit": "^9.1"
             },
             "type": "library",
             "autoload": {
@@ -118,7 +107,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-07-16T20:34:19+00:00"
+            "time": "2020-08-02T16:39:17+00:00"
         }
     ],
     "packages-dev": [
